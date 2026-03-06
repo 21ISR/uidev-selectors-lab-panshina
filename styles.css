@@ -130,7 +130,7 @@ body {
 }
 
 /* Подвал сайта */
-#contact {
+.footer-section {
     background-color: #222;
     color: white;
     text-align: center;
@@ -138,7 +138,7 @@ body {
 }
 
 /* Ссылки в блоке контактов */
-.contact-form {
+.contact-info a {
     color: #ff9800;
     text-decoration: none;
 }
@@ -153,7 +153,7 @@ body {
 }
 
 /* Текстовые поля формы (input и textarea) */
-.form-input {
+.form-input,.form-textarea {
     width: 80%;
     max-width: 400px;
     padding: 10px;
@@ -162,7 +162,7 @@ body {
 }
 
 /* Базовая кнопка */
-.form-textarea {
+.btn {
     padding: 10px 20px;
     font-size: 18px;
     border: none;
@@ -170,13 +170,13 @@ body {
 }
 
 /* Основная кнопка (оранжевая, для призыва к действию) */
-.btn {
+.btn  {
     background-color: #ff9800;
     color: white;
 }
 
 /* Кнопка отправки формы */
-.form-textarea  {
+.btn submit  {
     background-color: #ff9800;
     color: white;
 }
